@@ -6,6 +6,7 @@ const random = (min, max) => {
 
 // найдем кнопку
 const btn = document.querySelector('#btn');
+const btn2 = document.querySelector('#btn2');
 // повесим обработчик событий
 btn.addEventListener('mouseenter', () => {
     btn.style.left = `${random(0, 90)}%`;
@@ -17,7 +18,6 @@ btn.addEventListener('click', () => {
     btn.style.left = `${random(0, 90)}%`;
     btn.style.top = `${random(0, 90)}%`;
 });
-
 
 
 
