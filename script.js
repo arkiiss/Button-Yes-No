@@ -12,6 +12,11 @@ btn.addEventListener('mouseenter', () => {
     btn.style.top = `${random(0, 90)}%`;
 });
 
+// в случае победы выведем:
+btn.addEventListener('click', () => {
+    btn.style.left = `${random(0, 90)}%`;
+    btn.style.top = `${random(0, 90)}%`;
+});
 
 
 
